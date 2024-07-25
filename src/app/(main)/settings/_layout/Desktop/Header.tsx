@@ -7,8 +7,6 @@ import { Menu } from 'lucide-react';
 import { ReactNode, memo, useState } from 'react';
 import { Flexbox } from 'react-layout-kit';
 
-import BrandWatermark from '@/components/BrandWatermark';
-
 const useStyles = createStyles(({ token, css }) => ({
   container: css`
     position: relative;

@@ -3,7 +3,6 @@
 import { Icon } from '@lobehub/ui';
 import { Button } from 'antd';
 import { SendHorizonal } from 'lucide-react';
-import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';

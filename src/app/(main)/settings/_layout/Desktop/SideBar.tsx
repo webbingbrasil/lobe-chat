@@ -4,8 +4,6 @@ import { createStyles } from 'antd-style';
 import { useTranslation } from 'react-i18next';
 import { Flexbox, FlexboxProps } from 'react-layout-kit';
 
-import BrandWatermark from '@/components/BrandWatermark';
-
 const useStyles = createStyles(({ token, css }) => ({
   container: css`
     padding-block: 24px 16px;
