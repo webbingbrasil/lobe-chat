@@ -192,7 +192,7 @@ class Ld {
       '@type': 'WebSite',
       'description': pkg.description,
       'inLanguage': 'en-US',
-      'name': 'LobeChat',
+      'name': 'Devise',
       'publisher': {
         '@id': this.getId(SITE_URL, '#organization'),
       },
@@ -207,7 +207,7 @@ class Ld {
   }
 
   private fixTitle(title: string) {
-    return title.includes('LobeChat') ? title : `${title} · LobeChat`;
+    return title.includes('Devise') ? title : `${title} · Devise`;
   }
 
   private fixUrl(url: string) {

@@ -43,14 +43,6 @@ const Nav = memo(() => {
         title: t('tab.chat'),
       },
       {
-        icon: (active) => <Icon className={active ? styles.active : undefined} icon={Compass} />,
-        key: SidebarTabKey.Market,
-        onClick: () => {
-          router.push('/market');
-        },
-        title: t('tab.market'),
-      },
-      {
         icon: (active) => <Icon className={active ? styles.active : undefined} icon={User} />,
         key: SidebarTabKey.Me,
         onClick: () => {

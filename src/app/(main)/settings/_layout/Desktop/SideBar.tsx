@@ -53,7 +53,6 @@ const SidebarLayout = ({ children, className, title, desc, ...rest }: SidebarLay
         <p className={styles.desc}>{desc || t('header.desc')}</p>
       </Flexbox>
       {children}
-      <BrandWatermark paddingInline={12} />
     </Flexbox>
   );
 };

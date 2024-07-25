@@ -15,11 +15,6 @@ const Actions = memo<{ mobile?: boolean }>(({ mobile }) => {
 
   return (
     <Flexbox gap={16} horizontal={!mobile} justify={'center'} width={'100%'} wrap={'wrap'}>
-      <Link href={'/market'}>
-        <Button block={mobile} size={'large'} style={{ minWidth: 160 }} type={'default'}>
-          {t('button.market')}
-        </Button>
-      </Link>
       <Button
         block={mobile}
         onClick={() => router.push('/chat')}

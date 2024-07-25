@@ -242,7 +242,7 @@ export const useMenu = () => {
     /* ↑ cloud slot ↑ */
     ...(canInstall ? pwa : []),
     ...data,
-    ...helps,
+    // ...helps,
   ].filter(Boolean) as MenuProps['items'];
 
   const logoutItems: MenuProps['items'] = isLoginWithAuth

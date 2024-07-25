@@ -13,12 +13,11 @@ const DesktopLayout = ({ children }: PropsWithChildren) => {
       <Flexbox
         align={'center'}
         height={'100%'}
-        justify={'space-between'}
+        justify={'center'}
         padding={16}
         style={{ overflow: 'hidden', position: 'relative' }}
         width={'100%'}
       >
-        <LobeHub size={36} style={{ alignSelf: 'flex-start' }} type={'text'} />
         <GridShowcase
           innerProps={{ gap: 24 }}
           style={{ maxHeight: 'calc(100% - 104px)', maxWidth: 1024 }}
@@ -26,10 +25,6 @@ const DesktopLayout = ({ children }: PropsWithChildren) => {
         >
           {children}
         </GridShowcase>
-        <Flexbox align={'center'} horizontal justify={'space-between'}>
-          <span style={{ opacity: 0.5 }}>{COPYRIGHT}</span>
-          <Follow />
-        </Flexbox>
       </Flexbox>
       {/* ↓ cloud slot ↓ */}
 

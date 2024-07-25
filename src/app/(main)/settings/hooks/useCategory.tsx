@@ -77,15 +77,6 @@ export const useCategory = () => {
             </Link>
           ),
         },
-        {
-          icon: <Icon icon={Info} />,
-          key: SettingsTabs.About,
-          label: (
-            <Link href={'/settings/about'} onClick={(e) => e.preventDefault()}>
-              {t('tab.about')}
-            </Link>
-          ),
-        },
       ].filter(Boolean) as MenuProps['items'],
     [t, enableWebrtc, showLLM],
   );

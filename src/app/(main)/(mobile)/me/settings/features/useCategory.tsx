@@ -48,11 +48,6 @@ export const useCategory = () => {
       key: SettingsTabs.Agent,
       label: t('tab.agent'),
     },
-    {
-      icon: Info,
-      key: SettingsTabs.About,
-      label: t('tab.about'),
-    },
   ].filter(Boolean) as CellProps[];
 
   return items.map((item) => ({

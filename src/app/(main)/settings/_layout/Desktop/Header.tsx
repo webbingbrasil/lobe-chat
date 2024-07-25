@@ -76,7 +76,6 @@ const Header = memo<HeaderProps>(({ children, getContainer, title }) => {
         zIndex={10}
       >
         {children}
-        <BrandWatermark paddingInline={12} />
       </Drawer>
     </>
   );
